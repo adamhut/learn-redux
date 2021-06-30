@@ -9,10 +9,10 @@ class Main extends React.Component{
         return (
             <div>
                 <h1>
-                     Reduxsdtagram
+                     <Link to="/">Reduxsdtagram</Link>
                 </h1>
 
-                <PhotoGrid></PhotoGrid>
+                <PhotoGrid {...this.props}></PhotoGrid>
 
             </div>
         ); 
