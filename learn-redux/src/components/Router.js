@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import store, {history} from './../store'
 
 import App from './App'
+import AppSingle from './AppSingle'
 
 const Router = ()=>{
 
@@ -16,7 +17,7 @@ const Router = ()=>{
             <BrowserRouter history={history}>
                 <Switch>
                     <Route exact path="/" component={App}></Route>
-                    <Route exact path="/view/:postId" component={Single}></Route>
+                    <Route exact path="/view/:postId" component={AppSingle}></Route>
 
                     <Route component={NotFound}></Route>
                 </Switch>
