@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter,Route,Switch, Link} from 'react-router-dom'
+import { BrowserRouter,Router as re,Route,Switch, Link} from 'react-router-dom'
 import Main from './Main'
 import Single from './Single'
 import NotFound from './NotFound'
